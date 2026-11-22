@@ -1,0 +1,33 @@
+/* Configurações básicas de toda a página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050814; /* Azul escuro profundo */
+    font-family: 'Poppins', sans-serif; /* Fonte elegante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* Organização do conteúdo no centro */
+.tela-inicial {
+    text-align: center;
+}
+
+/* O nome principal */
+h1 {
+    font-size: 5rem;
+    letter-spacing: 0.5rem; /* Espaço entre as letras */
+    margin: 0;
+    color: #ffffff;
+}
+
+/* O significado */
+.significado {
+    font-size: 1.2rem;
+    color: #9d4edd; /* Roxo */
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
